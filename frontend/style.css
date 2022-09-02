@@ -47,9 +47,11 @@ button {
   width: 240px;
   height: 240px;
   border-radius: 10rem;
+  line-height: 220px;
 }
 a {
   color: #ffeedf;
+  font-size: 200px;
 }
 .container {
   display: block;
