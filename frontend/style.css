@@ -46,6 +46,7 @@ button {
   background-color: #1c5a4e;
   width: 240px;
   height: 240px;
+  border-radius: 10rem;
 }
 a {
   color: #ffeedf;
