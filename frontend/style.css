@@ -1,0 +1,70 @@
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
+body {
+  background-color: #ffeedf;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+button {
+  background-color: #1c5a4e;
+  width: 240px;
+  height: 240px;
+}
+a {
+  color: #ffeedf;
+}
+.container {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  bottom: 0;
+  left: 0;
+}
+.wrapper {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
